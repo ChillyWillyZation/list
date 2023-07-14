@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <title>Song list</title>
+
+</head>
+
+<body>
+  <ul id="example">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    <li>Item 6</li>
+    <li>Item 7</li>
+    <li>Item 8</li>
+  </ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+  <script>
+    new Sortable(document.getElementById('example'), {
+      animation: 150,
+      ghostClass: 'blue-background-class'
+    });
+  </script>
+</body>
+
+</html>
